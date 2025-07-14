@@ -35,3 +35,55 @@ The project simulates how retail and e-commerce companies like Amazon utilize bu
 - Informs **product focus** by highlighting consistent top sellers.
 - Enables **seasonal campaign planning** to maximize Q4 performance.
 - Guides customer segmentation strategies for **high-value accounts**.
+
+<details>
+<summary> Table of Contents</summary>
+<br>
+
+# Table of Contents
+
+1. [Project Overview](#project-overview)  
+2. [Business Context & Research Questions](#business-context--research-questions)  
+3. [Dataset Information](#dataset-information)  
+4. [Methodology & Technical Approach](#methodology--technical-approach)  
+5. [Data Quality & Challenges](#data-quality--challenges)  
+6. [Key Findings & Insights](#key-findings--insights)  
+7. [Visualizations & Dashboard](#visualizations--dashboard)  
+8. [Recommendations & Impact](#recommendations--impact)  
+9. [Technical Implementation](#technical-implementation)  
+10. [Future Work & Limitations](#future-work--limitations)  
+11. [How to Use This Repository](#how-to-use-this-repository)  
+12. [Contributors & Acknowledgments](#contributors--acknowledgments)  
+
+ </details>
+
+
+## Business Context & Research Questions
+
+In today's fast-paced e-commerce landscape, companies like Amazon rely heavily on data-driven insights to drive strategic decisions. With millions of transactions happening across countries, regions, and product categories, it becomes essential for business leaders to have a clear view of performance metrics such as sales, profit, customer behavior, and product trends.
+
+This project simulates how a data analyst can support executive decision-making by building an interactive Amazon sales dashboard using Power BI. The dashboard enables stakeholders to filter data by time, region, segment, and product to monitor trends, identify opportunities, and manage performance.
+
+**Tools Used:** Power BI, Power Query, DAX  
+**Disclaimer:** This dashboard was built strictly for educational purposes using simulated real-world data. It does not represent actual Amazon operations or proprietary data.
+
+---
+
+##  Research Questions
+
+1. What are our total sales, profit, and profit margin over the years?  
+2. Which regions and subregions are the most profitable?  
+3. Which products and licenses contribute most to revenue and profit?  
+4. How do different customer segments (SMB, Enterprise, Strategic) perform?  
+5. How do discount patterns affect profitability across industries?  
+6. What seasonal trends can be observed in monthly and yearly sales?  
+7. Which cities and countries have the strongest market presence?  
+8. How do sales compare between Finance and Energy industries?  
+9. Are we seeing growth or retention in the customer base year over year?  
+10. How can users interact with the dashboard to gain deeper insights using slicers like year, city, segment, or license?
+
+
+
+
+
+
