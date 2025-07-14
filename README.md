@@ -82,8 +82,3 @@ This project simulates how a data analyst can support executive decision-making 
 9. Are we seeing growth or retention in the customer base year over year?  
 10. How can users interact with the dashboard to gain deeper insights using slicers like year, city, segment, or license?
 
-
-
-
-
-
