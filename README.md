@@ -187,8 +187,8 @@ Row ID,Order ID,Order Date,Date Key,Contact Name,Country,City,Region,Subregion,C
 <h2 style="color:black;">Visualizations & Dashboard</h2>
 
 ### 📊 Power BI Dashboard Preview
+<img width="996" height="768" alt="image" src="https://github.com/user-attachments/assets/77948f27-91c6-4f86-96ce-3992cd807730" />
 
-![Amazon Sales Dashboard](dashboard-screenshot.png)
 
 ### 🖼 Dashboard Features
 
@@ -197,7 +197,113 @@ Row ID,Order ID,Order Date,Date Key,Contact Name,Country,City,Region,Subregion,C
 * **Visuals Used:** Bar charts, line charts, and cards for clear, actionable insights.
 * **Drill-Down Capability:** Allows users to explore sales performance by country, city, and customer.
 
-> 📌 **Note:** Dashboard screenshot is for educational demonstration only.
+
+<h2 style="color:black;">Recommendations & Impact</h2>
+
+### 🎯 Strategic Recommendations
+
+* **Optimize Discounts:** Review pricing strategies to minimize negative profit margins.
+* **Focus on Enterprise & Strategic Segments:** These customers generate the most revenue — invest in retention programs.
+* **Expand High-Performing Regions:** Strengthen presence in EMEA, where sales are highest.
+* **Product Strategy:** Double down on top-performing products like FinanceHub and Marketing Suite.
+* **Monitor Profitability:** Build alerts in Power BI for transactions with negative profit.
+
+### 📈 Business Impact
+
+* **Improved Profit Margins:** Better discount management can increase net profit.
+* **Revenue Growth:** Strategic focus on high-value customers and regions can drive sustainable growth.
+* **Operational Efficiency:** Data-driven decision-making reduces resource wastage.
+* **Better Forecasting:** Power BI dashboards enable leadership to anticipate market trends.
+
+
+<h2 style="color:black;">Technical Implementation</h2>
+
+### 🛠 Tools & Technologies Used
+
+* **Power BI:** For data visualization, DAX calculations, and interactive dashboards.
+* **Power Query:** For data cleaning, transformation, and modeling.
+* **Excel/CSV Files:** As the data source for Amazon sales transactions.
+* **DAX Measures:** To calculate KPIs such as Total Sales, Profit Margin %, and YTD growth.
+
+### 🔗 Data Modeling
+
+* Built a **Star Schema** with fact tables (Sales) and dimension tables (Date, Product, Customer, Region).
+* Defined **relationships** for accurate filtering and aggregation.
+
+### ⚙️ Implementation Steps
+
+1. Imported raw CSV dataset into Power BI.
+2. Cleaned and transformed data using Power Query.
+3. Modeled relationships between tables for accurate analysis.
+4. Created calculated columns and DAX measures for KPIs.
+5. Designed a clean and interactive dashboard layout.
+6. Validated calculations with sample data to ensure accuracy.
+
+
+<h2 style="color:black;">Future Work & Limitations</h2>
+
+### 🔮 Future Work
+
+* **Predictive Analytics:** Implement machine learning models to forecast future sales and demand trends.
+* **Real-Time Dashboards:** Connect to live data sources for up-to-date insights.
+* **Advanced Segmentation:** Deeper customer segmentation for personalized marketing strategies.
+* **Automated Alerts:** Create Power BI alerts for negative profit margins or unusual sales drops.
+
+### ⚠️ Limitations
+
+* **Simulated Data:** Results are based on sample data and may not fully reflect real-world complexity.
+* **Static Dataset:** Lacks live updates, meaning trends may not represent real-time shifts.
+* **Granularity Constraints:** Certain attributes (e.g., cost details) may not be available for deeper margin analysis.
+
+
+<h2 style="color:black;">How to Use This Repository</h2>
+
+### 🗂 Repository Structure
+
+* **/data/** – Contains the simulated Amazon sales dataset (CSV format).
+* **/powerbi/** – Power BI project files and dashboard.
+* **README.md** – Documentation with business context, methodology, and findings.
+
+### 🚀 Getting Started
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/amazon-sales-dashboard.git
+   ```
+2. **Open in Power BI:**
+
+   * Navigate to `/powerbi/` folder and open the `.pbix` file.
+   * Ensure data source path points to the `/data/` folder.
+3. **Explore the Dashboard:**
+
+   * Use slicers (Year, Region, Segment, Product) to interact with the visuals.
+   * Analyze KPIs and trends as outlined in this README.
+
+### 📌 Notes
+
+* This repository is intended for **educational purposes only**.
+* Dataset is simulated and not representative of actual Amazon sales data.
+
+
+
+## **Contributors & Acknowledgments**
+
+### 👥 Contributors
+
+* **Winnie Nduva** – Data Analyst | Designed and developed the Power BI dashboard, cleaned and modeled the dataset, and authored the documentation.
+
+### 🙏 Acknowledgments
+
+* **Amazon Sales Dataset (Simulated):** Special thanks to publicly available datasets and mock data generation techniques that inspired the dataset creation.
+* **Power BI Community:** For providing best practices, DAX formula examples, and troubleshooting tips.
+* **LinkedIn Data Community:** For continuous feedback and inspiration on dashboard storytelling and data visualization improvements.
+
+> 🖤 **Note:** This project is created purely for **educational purposes** and portfolio demonstration.
+
+
+
+
 
 
 
