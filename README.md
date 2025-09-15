@@ -19,6 +19,7 @@ The project simulates how retail and e-commerce companies like Amazon utilize bu
 
 ⚠️ *Disclaimer: This project was created strictly for educational and non-commercial use. The dataset used is a simulated version based on public patterns and does not represent actual Amazon data.*
 
+
 ##  Key Findings & Strategic Impact
 
 ### 🔍 Key Findings:
@@ -67,7 +68,7 @@ This project simulates how a data analyst can support executive decision-making 
 **Tools Used:** Power BI, Power Query, DAX  
 **Disclaimer:** This dashboard was built strictly for educational purposes using simulated real-world data. It does not represent actual Amazon operations or proprietary data.
 
----
+
 
 ##  Research Questions
 
@@ -83,8 +84,9 @@ This project simulates how a data analyst can support executive decision-making 
 10. How can users interact with the dashboard to gain deeper insights using slicers like year, city, segment, or license?
 
 
+<h2 style="color:black;">Dataset Information</h2>
 
-
+### **🧾 Raw Dataset Sample (First 10 Rows)**
 ```csv
 Row ID,Order ID,Order Date,Date Key,Contact Name,Country,City,Region,Subregion,Customer,Customer ID,Industry,Segment,Product,License,Sales,Quantity,Discount,Profit
 1,EMEA-2024-152156,11/9/2024,20241109,Nathan Bell,Ireland,Dublin,EMEA,UKIR,AnyCompany Energy,1017,Energy,Enterprise,Marketing Suite,16GRM07R1K,261.96,2,0,41.9136
@@ -116,7 +118,6 @@ Row ID,Order ID,Order Date,Date Key,Contact Name,Country,City,Region,Subregion,C
 * **Profit** – Net earnings from the sale
 
 
-
 ## 📊 Methodology & Technical Approach
 
 ### 🔧 Data Preparation
@@ -138,7 +139,6 @@ Row ID,Order ID,Order Date,Date Key,Contact Name,Country,City,Region,Subregion,C
 * **Validation:** Cross-checked totals and calculations against raw data to ensure accuracy.
 
 
-
 ## <span style="color:black">Data Quality & Challenges</span>
 
 ### 🔍 Data Quality Assessment
@@ -158,8 +158,6 @@ Row ID,Order ID,Order Date,Date Key,Contact Name,Country,City,Region,Subregion,C
 * Applied Power Query transformations for data cleaning.
 * Used DAX to create calculated columns for profit margin and validated results.
 * Ensured relationships were correctly set between tables to avoid double counting.
-
-> 📌 **Note:** These challenges are common in real-world projects and were addressed to ensure reliable insights in the dashboard.
 
 
 <h2 style="color:black;">Key Findings & Insights</h2>
@@ -262,7 +260,7 @@ Row ID,Order ID,Order Date,Date Key,Contact Name,Country,City,Region,Subregion,C
 
 ### 🚀 Getting Started
 
-1. **Clone the Repository:**
+1. The Repository:**
 
    ```bash
    [git clone https://github.com/yourusername/amazon-sales-dashboard.git](https://github.com/nduvawinnie/AMAZON-SALES-ANAYSIS/blob/main/SaaS-Sales%20(1).csv)
@@ -277,7 +275,6 @@ Row ID,Order ID,Order Date,Date Key,Contact Name,Country,City,Region,Subregion,C
    * Analyze KPIs and trends as outlined in this README.
 
 
-
 ## **Contributors & Acknowledgments**
 
 ### 👥 Contributors
@@ -290,7 +287,7 @@ Row ID,Order ID,Order Date,Date Key,Contact Name,Country,City,Region,Subregion,C
 * **Power BI Community:** For providing best practices, DAX formula examples, and troubleshooting tips.
 * **LinkedIn Data Community:** For continuous feedback and inspiration on dashboard storytelling and data visualization improvements.
 
-> 🖤 **Note:** This project is created purely for **educational purposes** and portfolio demonstration.
+> **Note:** This project is created purely for **educational purposes** and portfolio demonstration.
 
 © 2025 | Nduva Winnie | Data Analytics Portfolio
 
