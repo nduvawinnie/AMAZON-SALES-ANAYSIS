@@ -83,9 +83,7 @@ This project simulates how a data analyst can support executive decision-making 
 10. How can users interact with the dashboard to gain deeper insights using slicers like year, city, segment, or license?
 
 
-##  [Dataset Information](#dataset-information)
 
-### 🧾 Raw Dataset Sample (First 10 Rows)
 
 ```csv
 Row ID,Order ID,Order Date,Date Key,Contact Name,Country,City,Region,Subregion,Customer,Customer ID,Industry,Segment,Product,License,Sales,Quantity,Discount,Profit
@@ -116,8 +114,6 @@ Row ID,Order ID,Order Date,Date Key,Contact Name,Country,City,Region,Subregion,C
 * **Quantity** – Number of items purchased
 * **Discount** – Discount applied per item
 * **Profit** – Net earnings from the sale
-
-> 📌 **Disclaimer:** Data is simulated and used solely for learning and portfolio demonstration.
 
 
 
@@ -269,7 +265,7 @@ Row ID,Order ID,Order Date,Date Key,Contact Name,Country,City,Region,Subregion,C
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/amazon-sales-dashboard.git
+   [git clone https://github.com/yourusername/amazon-sales-dashboard.git](https://github.com/nduvawinnie/AMAZON-SALES-ANAYSIS/blob/main/SaaS-Sales%20(1).csv)
    ```
 2. **Open in Power BI:**
 
@@ -279,11 +275,6 @@ Row ID,Order ID,Order Date,Date Key,Contact Name,Country,City,Region,Subregion,C
 
    * Use slicers (Year, Region, Segment, Product) to interact with the visuals.
    * Analyze KPIs and trends as outlined in this README.
-
-### 📌 Notes
-
-* This repository is intended for **educational purposes only**.
-* Dataset is simulated and not representative of actual Amazon sales data.
 
 
 
@@ -301,7 +292,7 @@ Row ID,Order ID,Order Date,Date Key,Contact Name,Country,City,Region,Subregion,C
 
 > 🖤 **Note:** This project is created purely for **educational purposes** and portfolio demonstration.
 
-
+© 2025 | Nduva Winnie | Data Analytics Portfolio
 
 
 
